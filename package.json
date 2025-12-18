@@ -1,0 +1,50 @@
+{
+  "name": "claude-wants-you",
+  "version": "1.0.0",
+  "description": "MCP server for sending notifications when Claude is waiting for input",
+  "main": "dist/index.js",
+  "bin": {
+    "claude-notify-mcp": "dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc && chmod +x dist/index.js",
+    "dev": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "claude",
+    "notifications",
+    "slack",
+    "teams",
+    "sms",
+    "model-context-protocol",
+    "ai",
+    "assistant",
+    "webhook"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/William-Long-II/claude-wants-you.git"
+  },
+  "bugs": {
+    "url": "https://github.com/William-Long-II/claude-wants-you/issues"
+  },
+  "homepage": "https://github.com/William-Long-II/claude-wants-you#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "node-notifier": "^10.0.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/node-notifier": "^8.0.5",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

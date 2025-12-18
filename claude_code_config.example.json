@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "claude-notify": {
+      "command": "npx",
+      "args": ["-y", "claude-notify-mcp"],
+      "env": {
+        "SLACK_WEBHOOK_URL": "https://hooks.slack.com/services/YOUR/WEBHOOK/URL",
+        "TEAMS_WEBHOOK_URL": "https://prod-XX.XX.logic.azure.com:443/workflows/YOUR/WORKFLOW/URL",
+        "TWILIO_ACCOUNT_SID": "your_account_sid_here",
+        "TWILIO_AUTH_TOKEN": "your_auth_token_here",
+        "TWILIO_FROM_NUMBER": "+1234567890",
+        "TWILIO_TO_NUMBER": "+1234567890"
+      }
+    }
+  }
+}
