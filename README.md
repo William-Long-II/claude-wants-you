@@ -80,7 +80,7 @@ Add this server to your Claude Code (or other MCP client) configuration:
 ```json
 {
   "mcpServers": {
-    "claude-notify": {
+    "claude-wants-you": {
       "command": "npx",
       "args": ["-y", "claude-wants-you"],
       "env": {
@@ -101,7 +101,7 @@ Alternatively, if you have a `.env` file in your project:
 ```json
 {
   "mcpServers": {
-    "claude-notify": {
+    "claude-wants-you": {
       "command": "npx",
       "args": ["-y", "claude-wants-you"]
     }
