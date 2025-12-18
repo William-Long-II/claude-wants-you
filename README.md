@@ -1,4 +1,4 @@
-# Claude Wants You
+# Claude Wants You MCP
 
 <p align="center">
   <img src="hero.jpg" alt="Claude Wants You Hero" />
