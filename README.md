@@ -1,4 +1,4 @@
-# Claude Notify MCP
+# Claude Wants You MCP
 
 <p align="center">
   <img src="hero.jpg" alt="Claude Notify MCP Hero" />
