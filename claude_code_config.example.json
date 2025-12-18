@@ -2,7 +2,7 @@
   "mcpServers": {
     "claude-notify": {
       "command": "npx",
-      "args": ["-y", "claude-notify-mcp"],
+      "args": ["-y", "claude-wants-you"],
       "env": {
         "SLACK_WEBHOOK_URL": "https://hooks.slack.com/services/YOUR/WEBHOOK/URL",
         "TEAMS_WEBHOOK_URL": "https://prod-XX.XX.logic.azure.com:443/workflows/YOUR/WORKFLOW/URL",

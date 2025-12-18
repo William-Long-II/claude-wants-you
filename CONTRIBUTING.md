@@ -1,4 +1,4 @@
-# Contributing to Claude Notify MCP
+# Contributing to Claude Wants You
 
 Thank you for your interest in contributing! This document provides guidelines and information for contributors.
 
@@ -7,8 +7,8 @@ Thank you for your interest in contributing! This document provides guidelines a
 1. **Fork the repository**
 2. **Clone your fork**:
    ```bash
-   git clone https://github.com/yourusername/claude-notify-mcp.git
-   cd claude-notify-mcp
+   git clone https://github.com/yourusername/claude-wants-you.git
+   cd claude-wants-you
    ```
 3. **Install dependencies**:
    ```bash

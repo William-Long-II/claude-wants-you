@@ -4,7 +4,7 @@
   "description": "MCP server for sending notifications when Claude is waiting for input",
   "main": "dist/index.js",
   "bin": {
-    "claude-notify-mcp": "dist/index.js"
+    "claude-wants-you": "dist/index.js"
   },
   "type": "module",
   "scripts": {

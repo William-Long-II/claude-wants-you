@@ -1,6 +1,6 @@
-# Setup Guide for Claude Notify MCP
+# Setup Guide for Claude Wants You
 
-This guide will walk you through setting up the Claude Notify MCP server step by step.
+This guide will walk you through setting up the Claude Wants You server step by step.
 
 ## Quick Start (Desktop Notifications Only)
 
@@ -13,7 +13,7 @@ The simplest setup uses only desktop notifications and requires no configuration
   "mcpServers": {
     "claude-notify": {
       "command": "npx",
-      "args": ["-y", "claude-notify-mcp"]
+      "args": ["-y", "claude-wants-you"]
     }
   }
 }
@@ -89,7 +89,7 @@ Edit your `.claude/claude_code_config.json`:
   "mcpServers": {
     "claude-notify": {
       "command": "npx",
-      "args": ["-y", "claude-notify-mcp"],
+      "args": ["-y", "claude-wants-you"],
       "env": {
         "SLACK_WEBHOOK_URL": "https://hooks.slack.com/services/YOUR/WEBHOOK/URL",
         "TEAMS_WEBHOOK_URL": "https://your-org.webhook.office.com/webhookb2/YOUR/WEBHOOK/URL",

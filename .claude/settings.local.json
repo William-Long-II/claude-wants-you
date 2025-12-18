@@ -3,7 +3,8 @@
     "allow": [
       "Bash(npm run build:*)",
       "WebSearch",
-      "mcp__claude-notify__send_notification"
+      "mcp__claude-notify__send_notification",
+      "Bash(git commit:*)"
     ]
   },
   "enableAllProjectMcpServers": true,

@@ -1,7 +1,7 @@
-# Claude Notify MCP
+# Claude Wants You
 
 <p align="center">
-  <img src="hero.jpg" alt="Claude Notify MCP Hero" />
+  <img src="hero.jpg" alt="Claude Wants You Hero" />
 </p>
 
 An MCP (Model Context Protocol) server that enables Claude to send notifications when it needs your attention. Perfect for long-running tasks where you want to be notified when Claude is waiting for input or has completed work.
@@ -21,13 +21,13 @@ An MCP (Model Context Protocol) server that enables Claude to send notifications
 You can run this MCP server using npx without installation:
 
 ```bash
-npx claude-notify-mcp
+npx claude-wants-you
 ```
 
 Or install globally:
 
 ```bash
-npm install -g claude-notify-mcp
+npm install -g claude-wants-you
 ```
 
 ## Configuration
@@ -82,7 +82,7 @@ Add this server to your Claude Code (or other MCP client) configuration:
   "mcpServers": {
     "claude-notify": {
       "command": "npx",
-      "args": ["-y", "claude-notify-mcp"],
+      "args": ["-y", "claude-wants-you"],
       "env": {
         "SLACK_WEBHOOK_URL": "https://hooks.slack.com/services/YOUR/WEBHOOK/URL",
         "TEAMS_WEBHOOK_URL": "https://your-org.webhook.office.com/webhookb2/YOUR/WEBHOOK/URL",
@@ -103,7 +103,7 @@ Alternatively, if you have a `.env` file in your project:
   "mcpServers": {
     "claude-notify": {
       "command": "npx",
-      "args": ["-y", "claude-notify-mcp"]
+      "args": ["-y", "claude-wants-you"]
     }
   }
 }
@@ -175,8 +175,8 @@ To modify or extend the server:
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd claude-notify-mcp
+git clone https://github.com/William-Long-II/claude-wants-you.git
+cd claude-wants-you
 
 # Install dependencies
 npm install

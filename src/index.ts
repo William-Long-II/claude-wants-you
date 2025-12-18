@@ -55,7 +55,7 @@ const TOOLS: Tool[] = [
 // Create MCP server
 const server = new Server(
   {
-    name: 'claude-notify-mcp',
+    name: 'claude-wants-you',
     version: '1.0.0',
   },
   {
@@ -140,7 +140,7 @@ async function main() {
   const transport = new StdioServerTransport();
   await server.connect(transport);
 
-  console.error('Claude Notify MCP Server running');
+  console.error('Claude Wants You Server running');
   console.error(`Configured providers: ${notificationManager.getProviderNames().join(', ') || 'none'}`);
 }
 

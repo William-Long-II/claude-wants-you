@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-Get Claude Notify MCP running in 5 minutes.
+Get Claude Wants You running in 5 minutes.
 
 ## Option 1: Desktop Notifications Only (Easiest)
 
@@ -10,7 +10,7 @@ Get Claude Notify MCP running in 5 minutes.
   "mcpServers": {
     "claude-notify": {
       "command": "npx",
-      "args": ["-y", "claude-notify-mcp"]
+      "args": ["-y", "claude-wants-you"]
     }
   }
 }
@@ -32,7 +32,7 @@ Get Claude Notify MCP running in 5 minutes.
   "mcpServers": {
     "claude-notify": {
       "command": "npx",
-      "args": ["-y", "claude-notify-mcp"],
+      "args": ["-y", "claude-wants-you"],
       "env": {
         "SLACK_WEBHOOK_URL": "YOUR_WEBHOOK_URL_HERE"
       }
@@ -56,7 +56,7 @@ Get Claude Notify MCP running in 5 minutes.
   "mcpServers": {
     "claude-notify": {
       "command": "npx",
-      "args": ["-y", "claude-notify-mcp"],
+      "args": ["-y", "claude-wants-you"],
       "env": {
         "TEAMS_WEBHOOK_URL": "YOUR_WEBHOOK_URL_HERE"
       }
@@ -79,7 +79,7 @@ Get Claude Notify MCP running in 5 minutes.
   "mcpServers": {
     "claude-notify": {
       "command": "npx",
-      "args": ["-y", "claude-notify-mcp"],
+      "args": ["-y", "claude-wants-you"],
       "env": {
         "TWILIO_ACCOUNT_SID": "your_account_sid",
         "TWILIO_AUTH_TOKEN": "your_auth_token",
@@ -102,7 +102,7 @@ Want everything? Combine the env variables:
   "mcpServers": {
     "claude-notify": {
       "command": "npx",
-      "args": ["-y", "claude-notify-mcp"],
+      "args": ["-y", "claude-wants-you"],
       "env": {
         "SLACK_WEBHOOK_URL": "your_slack_webhook",
         "TEAMS_WEBHOOK_URL": "your_teams_webhook",

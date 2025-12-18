@@ -9,7 +9,7 @@ Microsoft is retiring Office 365 Connectors (Incoming Webhooks) and replacing th
 - Existing connectors will continue to work until Microsoft's end-of-life date
 - All users should migrate to the new Workflows method
 
-## What Changed in Claude Notify MCP
+## What Changed in Claude Wants You
 
 We've updated the Teams provider to use:
 - **Adaptive Cards** instead of MessageCards
@@ -69,7 +69,7 @@ Update your `.claude/claude_code_config.json`:
   "mcpServers": {
     "claude-notify": {
       "command": "npx",
-      "args": ["-y", "claude-notify-mcp"],
+      "args": ["-y", "claude-wants-you"],
       "env": {
         "TEAMS_WEBHOOK_URL": "https://prod-XX.XX.logic.azure.com:443/workflows/YOUR_NEW_URL"
       }
@@ -158,7 +158,7 @@ Once the new webhook is working:
 - Verify the channel hasn't been deleted or renamed
 
 ### "Invalid request body" errors
-- Update to the latest version of claude-notify-mcp
+- Update to the latest version of claude-wants-you
 - The new version uses Adaptive Cards format
 - Old MessageCard format won't work with new webhooks
 
