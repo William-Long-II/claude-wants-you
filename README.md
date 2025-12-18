@@ -82,7 +82,7 @@ Add this server to your Claude Code (or other MCP client) configuration:
   "mcpServers": {
     "claude-wants-you": {
       "command": "npx",
-      "args": ["-y", "claude-wants-you"],
+      "args": ["-y", "William-Long-II/claude-wants-you"],
       "env": {
         "SLACK_WEBHOOK_URL": "https://hooks.slack.com/services/YOUR/WEBHOOK/URL",
         "TEAMS_WEBHOOK_URL": "https://your-org.webhook.office.com/webhookb2/YOUR/WEBHOOK/URL",
@@ -103,7 +103,7 @@ Alternatively, if you have a `.env` file in your project:
   "mcpServers": {
     "claude-wants-you": {
       "command": "npx",
-      "args": ["-y", "claude-wants-you"]
+      "args": ["-y", "William-Long-II/claude-wants-you"]
     }
   }
 }
