@@ -21,13 +21,13 @@ An MCP (Model Context Protocol) server that enables Claude to send notifications
 You can run this MCP server using npx without installation:
 
 ```bash
-npx claude-wants-you
+npx William-Long-II/claude-wants-you
 ```
 
 Or install globally:
 
 ```bash
-npm install -g claude-wants-you
+npm install -g William-Long-II/claude-wants-you
 ```
 
 ## Configuration
